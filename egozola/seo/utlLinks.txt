@@ -1,0 +1,415 @@
+
+I would like to use the automatic tools but unfortunately this field is required with a minimum length of 300 characters required and i do not see any link to automatic submission this could be an easy way to other developer who has already have they app in Google Play in the future would advise you to left this input Optional you could only use a select button.  
+
+>>> 100K job openings near me part-time  (fx)
+>>> 100K part-time jobs near me hiring immediately (fx)
+>> 10K: teenage job openings near me (fx),  fresher jobs near me (fx), local jobs near me full time (fx), jobs careers near me (fx),
+>> part time careers near me 1K 
+>> 1K open job positions near me, open positions near me
+>> 1K 24 hour jobs near me, current job openings near me, now hiring near me full time, new job openings near me, retail job openings near me
+
+
+>>> 10K Free Personal budget software <?php echo date("Y"); ?>, best budget app android
+>>>1K personal accounting software, Best Free Personal budget software <?php echo date("Y"); ?>, Best business Expense tracker app, app to manage expenses, best app for daily expenses	, daily spending app android 
+>>1K weekly expense tracker
+
+>> FULL OKA 10K : finance tracking apps free (fx), personal expense tracker app (fx), simple budgeting app (fx), best app for expense management (fx)
+>>> FULL OK: 1K: expense record app android (fx)
+ >>>10k: expense report app, spending tracker app (fx), 
+ 
+ POS:
+ >>> FULL GOOD: 10K pos system for sale (fx), free pos system app (fx)
+ >>1K: pos and inventory system, based pos system
+ 
+ DEBT
+ >>> 10K debt manager
+ >>1K : debt free tracker, Debt Tracker app, Loan Tracker app
+ 
+ ADS
+ >>>10K GOOD: classified ads near me (fx)
+ >>> 10K Goob But in Philipine: car for sale ayosdito
+ >>>10K free advertising online, post free classified ads in usa (fx), free ad posting websites in usa (fx), free classified sites like craigslist (fx)
+ >> 
+ >>> 1K , free online advertising sites, free ads posting sites for real estate, indian free classified sites for ad posting 
+
+ https://www.k-startupgc.org/project/faq.do
+ 
+ FRENCHE:
+1K: dépenses quotidiennes, système pos,
+>>> TooBAD: caisses enregistreuses
+>>> GOOD: 1K app gestion de budget
+10K application dépenses quotidiennes, 
+10K: application météo france gratuite, application pour gérer son budget, Application gestion budget, pour gérer son budget
+>>>> un p Good 10K: Location appartement de particulier a particulier sans agence
+
+application dépenses quotidiennes, application pour gérer son budget, offre d'emploi, météo
+
+WEATHER 
+Prevision Météo gratuite, 10K
+Meteo alger 25 jours 100K
+
+meteo aujourd hui
+
+MOZILA DEV: 102.129.224.2
+MOZILA NORMAL: 102.129.224.2
+
+
+
+Inventaire de dépense & revenu
+>>>>TOP POPULAR FOLDER
+http://www.abumadi.com/kitchen-sink-ceramic/
+http://www.abumadi.com/copper-kitchen-faucets/
+https://www.abumadi.com/pull-out-kitchen-faucet/
+http://www.abumadi.com/apron-front-kitchen-sinks/
+
+Folder for -> www.abumadi.com
+http://www.abumadi.com/porcelain-kitchen-sink/
+http://www.abumadi.com/black-kitchen-sinks/
+https://www.abumadi.com/wall-mount-kitchen-faucets/
+https://www.abumadi.com/kohler-kitchen-faucets/
+http://www.abumadi.com/price-pfister-kitchen-faucets/
+http://www.abumadi.com/delta-kitchen-faucets/
+http://www.abumadi.com/copper-kitchen-sinks/
+http://www.abumadi.com/kitchen-sink-ceramic/
+
+
+mWeb
+ego
+Web
+--GENERATE LINK folder for Abumandi:
+
+kitchen-sink-ceramic x
+copper-kitchen-faucets  x
+pull-out-kitchen-faucet x
+apron-front-kitchen-sinks x
+porcelain-kitchen-sink x
+black-kitchen-sinks x
+wall-mount-kitchen-faucets x
+kohler-kitchen-faucets x
+price-pfister-kitchen-faucets
+delta-kitchen-faucets x
+copper-kitchen-sinks x
+
+
+UPDATE `productsstd` SET photo1='55/55_logo.png', photo2='55/55_STD.jpg',photo2='55/55_STD1.jpg',photo3='55/55_STD2.jpg' WHERE idProd<10
+
+$scope.serveListS[idenxJs].actived=1;
+
+$rootScope.jsUser
+$scope.htlLocListS
+$scope.hsLocListS
+$scope.atLocListS
+$scope.serveListS
+$scope.pcLocListS
+$scope.hsLocListS
+$rootScope.ArtListS
+-------------------------
+  $rootScope.jsUser=[];
+  $rootScope.hsLocListS=[];
+  $rootScope.pcLocListS=[];
+  $rootScope.serveListS=[];
+  $rootScope.atLocListS=[];
+  $rootScope.htlLocListS=[];
+  rootScope.jsUser=[];
+  $rootScope.sMCode="NO"; == sCode == typo
+  storCd=storCd
+  $rootScope.prodD="NO";
+-------------------------
+sSizeDataQ
+$rootScope.sMCode=dCode
+dsp== storCd
+   NO--> S_RATL
+
+   $rootScope.sImgStd
+   
+   $rootScope.sScolS
+   
+   http://localhost:8100/#/myAcounte
+getTxtArt
+saveTxtArt
+if(window.localStorage.getItem("lngU")==null){
+      console.log("====LanguU is Nulle");
+      /*Init Language */
+      $scope.lInit=1;
+    }
+Localiser mon adresse	
+Ajouter une localisation à votre Business
+Visualier sur Google Map
+Votre Business est déjà Géolocalisé avec GPS	
+
+HM_PROF
+
+"PSDT": "Services & Domaine d'activités",
+"PSND":"No définit",
+"PSCM":"Service Commercial",
+"PSPF":"Service Professionnel",
+"PSPC":"Spécialisé en:",
+"PSSL":"En vente ou location de:",
+"PMSG":"Besoin de plus d'informations s'il vous plaît",
+
+$rootScope.jsUser[0].sex
+$rootScope.jsUser[0].photoName
+
+Franchement l'appli, le service est bien et rapide, facile à utiliser, je le conseil pour dautres utilisateurs ca ma facilité la vie en reduisant mes deplacements, dépenses et mes tache pour gérer mon business merci a eGoZola
+
+     $rootScope.slUser=null;
+      $rootScope.prevUrl="JS";
+      $scope.ldStatus = 0;
+      $scope.dpsFead = 0;
+      $scope.dpsCatF = '0';
+      $rootScope.jsUser=[];
+      initMShopVar($rootScope);
+	  
+
+      $scope.ldStatus = 0;
+      $scope.dpsFead = 0;
+      $scope.dpsCatF = '0';
+      $rootScope.jsUser=[];
+      initMShopVar($rootScope);
+      console.log("...try getting StoreCtrl ");
+      $scope.closeModalFed();
+      $state.go("getStore", {
+        idUser: $rootScope.idSel,
+        userName: $scope.nameSel,
+        cdH: 'view'
+      });
+	  
+	  
+JB_RPTION
+Avis
+
+W_FYF
+W_FDL
+
+OCPF
+
+OCPF
+
+    $translate(['S_GPS','S_INT','S_LDG','L_SRY','R_OK','S_PROX','S_WAT']).then(function (translations) {
+      console.log("---ScopeLat->"+ $scope.lat+"<--SLong-->"+$scope.long);
+    $ionicLoading.show({
+      template: '<ion-spinner icon="android"></ion-spinner><br>'+translations.S_WAT
+    });
+if($scope.lat!=='0'){
+  var posOptions = {timeout: 40000, enableHighAccuracy: true};
+  $cordovaGeolocation
+    .getCurrentPosition(posOptions)
+    .then(function (position) {
+      $ionicLoading.hide();
+      var lat = position.coords.latitude;
+      var long = position.coords.longitude;
+      StorageService.saveLat(lat);
+      StorageService.saveLong(long);
+      console.log("<=NEW GPS DATA== Lat>" + lat + "<=Long>" + long);
+      window.open('https://www.google.com/maps/dir/?api=1&origin='+lat+','+long+'&destination='+ $scope.lat+','+$scope.long, '_system');
+
+    }, function (err) {
+      $ionicLoading.hide();
+      $scope.markedProd="NO";
+      $cordovaDialogs.alert(translations.S_GPS,'Error GPS',translations.R_OK)
+        .then(function () {
+        });
+    })
+}else {
+  $ionicLoading.hide();
+  $cordovaDialogs.alert($scope.jsDetails[0].userName+" " +translations.L_SRY,'Ooops!',translations.R_OK)
+    .then(function () {
+    });
+}
+
+      })
+	  
+P_FB
+JB_RPTION
+JB_LDFBK
+W_PVF
+W_VFB
+C_RSU
+S_MREP
+S_FD
+BT_SP
+
+P_MFL
+R_SUC
+saveBgndMsg()
+getBgndMsg() >>bMsg
+
+saveBgndJS();
+getBgndJS(); >> bJS
+
+Write a review
+Tell us what you think
+Donnez-nous votre avis
+Write a reviews
+Rédiger un avis
+ES: Escribe una opinión
+PT: Escrever uma critica
+
+shopStabCtrl
+Feedback ratings
+Notes d'évaluation
+
+
+Titre de votre Publication
+Publishing title
+Title of the Article (Message, advertising)
+Titre de votre article (message, promotion,..)
+
+  font-family: 'Lato', Tahoma, Geneva, sans-serif;
+  font-size: 16px;
+
+        try{
+      $cordovaFile.createDir(cordova.file.externalRootDirectory,homeFolder+"POS/",false)
+        .then(function (success) {
+         }, function (error) {
+           });
+    }catch (ee){
+      console.log("Error CreatDir"+ee);
+    }
+    try {
+           /*DATA_URL          saveToPhotoAlbum: false, */
+       var opt = {
+          quality: 90,
+          destinationType: Camera.DestinationType.FILE_URI,
+          sourceType:Camera.PictureSourceType.PHOTOLIBRARY,
+          allowEdit: true,
+          encodingType: Camera.EncodingType.JPEG,
+          targetWidth: 150,
+          targetHeight: 150,
+          correctOrientation: true
+        };
+             $cordovaCamera.getPicture(opt).then(function (sourcePath) {
+                 var sourceDirectory = sourcePath.substring(0, sourcePath.lastIndexOf('/') + 1);
+                  var sourceFileName = sourcePath.substring(sourcePath.lastIndexOf('/') + 1, sourcePath.length);
+               sourceFileName = sourceFileName.split('?')[0];
+                  var fileExtention = sourcePath.substring(sourcePath.lastIndexOf('.') + 1, sourcePath.lastIndexOf('?'));
+                  //alert(">>>URL->"+sourcePath);
+               sourceDirectory=sourceDirectory.replace('file:///', 'cdvfile://localhost/')
+               $scope.fPic=sourceDirectory+sourceFileName;
+                 /* var imgData="data:image/jpeg;base64,"+sourcePath;
+                  StorageService.saveKeyPic($scope.pData[0].idProd,imgData);
+               $scope.fPic=imgData;
+                var queryU = "UPDATE sProduct SET pic='"+$scope.pData[0].idProd+".png' WHERE idProd="+$scope.pData[0].idProd;
+               $cordovaSQLite.execute(db, queryU)
+                 .then(function (dataHistory) {
+                     console.log("..Succes sizeP new pdated");
+                     $scope.pic=$scope.pData[0].idProd+".png";
+                   },
+                   function (error) {
+                     $scope.tErrorState();
+                     console.log("Erro adding in Sell Data" + "\n" + error.message);
+                   })
+               */
+          /*
+                  $cordovaFile.copyFile(sourceDirectory, sourceFileName, cordova.file.externalRootDirectory + homeFolder + "POS/",$scope.pData[0].idProd+".png")
+                     .then(function (success) {
+                        var queryU = "UPDATE sProduct SET pic='"+$scope.pData[0].idProd+".png' WHERE idProd="+$scope.pData[0].idProd;
+                        $cordovaSQLite.execute(db, queryU)
+                          .then(function (dataHistory) {
+                              console.log("..Succes sizeP new pdated");
+                              $scope.pic=$scope.pData[0].idProd+".png";
+                            },
+                            functi
+							,, ,
+
+UPDATE user SEt theme=1 WHERE idUser=442;
+UPDATE user SEt theme=1 WHERE idUser=473;
+UPDATE user SEt theme=1 WHERE idUser=494;
+UPDATE user SEt theme=1 WHERE idUser=529;
+UPDATE user SEt theme=1 WHERE idUser=540;
+UPDATE user SEt theme=1 WHERE idUser=566;
+UPDATE user SEt theme=1 WHERE idUser=570;
+UPDATE user SEt theme=1 WHERE idUser=592;
+UPDATE user SEt theme=1 WHERE idUser=600;
+UPDATE user SEt theme=1 WHERE idUser=597
+
+
+on (error) {
+                              $scope.tErrorState();
+                              console.log("Erro adding in Sell Data" + "\n" + error.message);
+                            })
+                        alert("--FILE Succes Copy-->" + queryU);
+                      }, function (error) {
+                        alert(cordova.file.externalRootDirectory + homeFolder + "POS/"+$scope.pData[0].idProd+ ".jpg"+ "<<-Directe Copy error-->" + error.message);
+                      });
+*/
+             }, function (err) {
+               console.log(">>ERORAccesingCam"+err);
+             });
+      } catch(e){
+         console.log(">> Camera Issue");
+      }
+	  
+
+
+
+	  442,473, 494,529,540,566,570,592,600,597
+https://www.radiookapi.net/offre-demploi/
+https://www.optioncarriere.cd/recherche/emplois?s=&l=
+
+         window.open('https://www.google.com/maps/dir/?api=1&origin='+lat+','+long+'&destination='+$rootScope.jsUser[0].lat+','+$rootScope.jsUser[0].lng, '_system');
+UPDATE user SEt theme=1 WHERE idUser=653
+	
+Mediacongo emploi <?php echo date("Y"); ?>
+	
+UPDATE user SEt theme=1 WHERE idUser=64
+UPDATE user SEt theme=1 WHERE idUser=676
+UPDATE user SEt theme=1 WHERE idUser=672
+UPDATE user SEt theme=1 WHERE idUser=674
+UPDATE user SEt theme=1 WHERE idUser=734
+UPDATE user SEt theme=1 WHERE idUser=729
+UPDATE user SEt theme=1 WHERE idUser=721
+UPDATE user SEt theme=1 WHERE idUser=816
+UPDATE user SEt theme=1 WHERE idUser=763
+UPDATE user SEt theme=1 WHERE idUser=740
+UPDATE user SEt theme=1 WHERE idUser=736
+UPDATE user SEt theme=1 WHERE idUser=755
+UPDATE user SEt theme=1 WHERE idUser=635
+
+,
+
+
+
+
+https://egozola.com/seo/posOnline.php
+
+https://egozola.com/seo/algTravail.
+
+SHEDULLER:
+https://egozola.com/app/eGoZola/Scriptes/pushNewApp.php?cat=hello&start=0&end=235 AT 10H:30
+https://egozola.com/app/eGoZola/Scriptes/pushNewApp.php?cat=hello&start=434&end=600 AT 15H00
+https://egozola.com/app/eGoZola/Scriptes/pushNewApp.php?cat=hello&start=601&end=840 AT 17H30
+
+
+RETRY IT FROM 1H
+https://egozola.com/app/eGoZola/Scriptes/pushNewApp.php?cat=hello&start=841&end=1130 AT 00H00
+
+https://egozola.com/app/eGoZola/Scriptes/pushNewApp.php?cat=hello&start=1131&end=1420 AT 2H00
+
+https://egozola.com/app/eGoZola/Scriptes/pushNewApp.php?cat=hello&start=1421&end=1900 AT 3H30
+
+
+https://egozola.com/app/eGoZola/Scriptes/pushNewApp.php?cat=hello&start=1091&end=1340 AT 16H30
+https://egozola.com/app/eGoZola/Scriptes/pushNewApp.php?cat=hello&start=1341&end=1590 AT 18H00
+https://egozola.com/app/eGoZola/Scriptes/pushNewApp.php?cat=hello&start=1591&end=1690 AT 19H30
+
+
+
+https://egozola.com/app/eGoZola/Scriptes/pushNewApp.php?cat=info&start=291&end=655 AT 16H00:15
+https://egozola.com/app/eGoZola/Scriptes/pushNewApp.php?cat=hello&start=656&end=995 AT 18H00
+https://egozola.com/app/eGoZola/Scriptes/pushNewApp.php?cat=info&start=996&end=1280 AT 18H00:15
+https://egozola.com/app/eGoZola/Scriptes/pushNewApp.php?cat=hello&start=1281&end=1580 AT 20H00
+https://egozola.com/app/eGoZola/Scriptes/pushNewApp.php?cat=info&start=1581&end=1900 AT 20H00:15
+
+
+
+
+
+
+RESTECT ! Elle s’appelle *MUZAZI*	
+Elle t’*aime de tout son cœur*, et son *amour est  sincère, inimaginable et illimité*. 
+Tout le monde peut t’abandonner, mais elle, elle restera toujours à tes cotes…
+ C pas facile de tomber sur la bonne personne, aucun homme ne en mésure de t’aime comme t’aime ta propre mère. 
+ Car *personne n’est en mesure d’imagine l’amour qu’une mère a pour son fils ou sa fille*, même pas la mère!  Car cette amour est immense, c’est une émotion que seule une mère ressent….. Whoowhh!
+
+ 

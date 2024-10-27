@@ -1,0 +1,431 @@
+/* Empty. Add your own CSS if you like */
+
+.container1{
+  position: relative;
+  width: 100px;
+  text-align: center;
+}
+.mask { /* on va la placer au dessu de la photo */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, transparent 50px, white 50px); /* le cerle aura une rayon de 50px?*/
+}
+
+.container {
+  margin-bottom: 1px;
+text-decoration-color: white;
+  width: auto;
+
+}
+.container label {
+  position: relative;
+
+}
+.activLs{
+  /*border-left:solid #475069 4px*/
+  background:#1f6377;
+}
+
+/* Base styles for spans */
+.container span::before,
+.container span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* Radio buttons */
+.container span.radio:hover {
+  cursor: pointer;
+}
+.container span.radio::before {
+  left: -52px;
+  width: 45px;
+  height: 25px;
+  background-color: #A8AAC1;
+  border-radius: 50px;
+}
+.container span.radio::after {
+  left: -49px;
+  width: 17px;
+  height: 17px;
+  border-radius: 10px;
+  background-color: #6C788A;
+  transition: left .25s, background-color .25s;
+}
+input[type="radio"]:checked + label span.radio::after {
+  left: -27px;
+  background-color: #c6ff00;
+ /* background-color: #EBFF43;*/
+}
+/*  -- POURCENTAGE DIPLAY---*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:700);
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html,
+body {
+
+}
+.set-size {
+  font-size: 10em;
+}
+
+/*
+Pour le truc qui clignotent
+*/
+.loading {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.ball {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: #e74c3c;
+  border-radius: 50%;
+  box-shadow:inset 6px -10px 50px -20px #000;
+  animation: loading 1s infinite;
+}
+
+
+@keyframes loading {
+  0%, 100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-30px);
+    animation-timing-function: ease-in;
+  }
+}
+
+/*
+Only for the Chart
+*/
+#resizable {
+  height: 400px;
+  width: 500px;
+  padding: 5px;
+  border: 2px dashed #AAA;
+}
+
+/*
+Only for the Bar Progress
+*/
+.graph {
+  width: 100%; /* width and height are arbitrary, just make sure the #bar styles are changed accordingly */
+  height: 30px;
+  border: 1px solid #888;
+  background: rgb(168,168,168);
+  background: -moz-linear-gradient(top, rgba(168,168,168,1) 0%, rgba(204,204,204,1) 23%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(168,168,168,1)), color-stop(23%,rgba(204,204,204,1)));
+  background: -webkit-linear-gradient(top, rgba(168,168,168,1) 0%,rgba(204,204,204,1) 23%);
+  background: -o-linear-gradient(top, rgba(168,168,168,1) 0%,rgba(204,204,204,1) 23%);
+  background: -ms-linear-gradient(top, rgba(168,168,168,1) 0%,rgba(204,204,204,1) 23%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8a8a8', endColorstr='#cccccc',GradientType=0 );
+  background: linear-gradient(top, rgba(168,168,168,1) 0%,rgba(204,204,204,1) 23%);
+  position: relative;
+}
+#bar {
+  height: 29px; /* Not 30px because the 1px top-border brings it up to 30px to match #graph */
+  background: rgb(255,197,120);
+  background: -moz-linear-gradient(top, rgba(255,197,120,1) 0%, rgba(244,128,38,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,197,120,1)), color-stop(100%,rgba(244,128,38,1)));
+  background: -webkit-linear-gradient(top, rgba(255,197,120,1) 0%,rgba(244,128,38,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,197,120,1) 0%,rgba(244,128,38,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,197,120,1) 0%,rgba(244,128,38,1) 100%);
+  background: linear-gradient(top, rgba(255,197,120,1) 0%,rgba(244,128,38,1) 100%);
+  border-top: 1px solid #fceabb;
+}
+#bar p { position: absolute; text-align: center; width: 100%; margin: 0; line-height: 30px; }
+.error {
+  /* These styles are arbitrary */
+  background-color: #fceabb;
+  padding: 1em;
+  font-weight: bold;
+  color: red;
+  border: 1px solid red;
+}
+
+/* -- POUR UN BTN CLINYOTANT--*/
+
+.flash-button{
+  background:blue;
+  padding:0px 10px;
+  color:#fff;
+  border:none;
+  border-radius:20px;
+
+  animation-name: flash;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+//Firefox 1+
+-webkit-animation-name: flash;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+
+//Safari 3-4
+-moz-animation-name: flash;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+}
+
+.flash-button2{
+  background:green;
+  padding:0px 10px;
+  color:#fff;
+  border:none;
+  border-radius:20px;
+
+  animation-name: flash;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+//Firefox 1+
+-webkit-animation-name: flash;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+
+//Safari 3-4
+-moz-animation-name: flash;
+  -moz-animation-duration: 2s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+}
+@keyframes flash {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1.0; }
+}
+
+/* Firefox 1+ */
+@-webkit-keyframes flash {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1.0; }
+}
+
+/* Safari 3-4 */
+@-moz-keyframes flash {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1.0; }
+}
+.hr {
+  display: block;
+  height: 0px;
+  border: 0;
+  border-top: 1px solid #ccc;
+
+  padding: 0;
+  margin-bottom: 0px;
+}
+.hr1 {
+  display: block;
+  height: 0px;
+  border: 0;
+
+  border-top: 1px solid #ccc;
+
+  margin: 0.2em 0;
+
+}
+.hr2 {
+  display: block;
+  height: 0px;
+  border: 0;
+  border-top: 3px solid dodgerblue;
+  margin: 0em 0;
+  padding: 0;
+}
+.hr3 {
+  display: block;
+  height: 0px;
+  border: 0;
+  border-top: 3px solid  blue;
+  margin: 0.5em 0;
+  padding: 0;
+}
+
+
+.hr4 {
+  display: block;
+  height: 0px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 0.9em 0;
+}
+
+.flash-button2{
+  background:#039be5;
+  padding:0px 10px;
+  color:#fff;
+  border:none;
+  border-radius:20px;
+  width: 100%;
+  height: 35px;
+
+}
+
+
+/* IMAGE POP Up */
+
+.selected {
+  background-color:black;
+  color:white;
+  font-weight:bold;
+}
+.imgHolder {
+  bottom: 30px;
+  position: relative;
+  display:inline;
+
+}
+.imgHolder span {
+  position: absolute;
+  margin: 10em 0;
+  right: 10px;
+  top: 30px;
+
+}
+
+
+.scroll {
+  height: 80%;
+}
+
+#map {
+  width: 80%;
+  height: 80%;
+}
+
+.map-container {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+.map
+{
+  height: 100%;
+  width: 100%;
+}
+
+
+/* My Text Area
+*/
+.footer {
+  position: fixed;
+  border: solid 1px black;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+/*Modal Images*/
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+

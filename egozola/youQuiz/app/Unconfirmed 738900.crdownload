@@ -1,0 +1,119 @@
+  
+  
+  $scope.starGameH= function (year,category,type) {
+      StorageService.saveRealod("1"); //initializing reloadStatus
+
+  // console.log("XZZZZ->"+getRandomInt(4,1));
+    // Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive
+ //   var num = Math.floor(Math.random() * (4 - 1 + 1)) + 1;
+ //   console.log("-YYYYYY->>>RANDOM VALUE-1-4-->"+num);
+    console.log("....  Cliking on A SERIE....>>"+year+"-CAT"+category+"--TYPE--"+type);
+
+    // Befor going to question list we  have to set this info aouthe the counter and the size of Question
+    // RESETTING THE SCORE USER AND THE  Counter
+
+    $ionicLoading.show({// pour afficher la bare de progression
+      template:"Initalisation..."
+    });
+
+    //==>>    StorageService.saveRespMsg(msg);
+    // trying to ReMouve All Question
+    // console.log("CCCCC--MIN->"+StorageService.getFirtsQ()+"<--->"+(StorageService.getFirtsQ()-1+(StorageService.getQSize())-1+2)+"<-QSize->"+StorageService.getQSize());
+    var endRemov=parseFloat(StorageService.getFirtsQ())+parseFloat(StorageService.getQSize());
+    var startRem=parseFloat(StorageService.getFirtsQ());
+    //endRemov=(StorageService.getFirtsQ()-1+(StorageService.getQSize())-1+2);
+
+    for(i=startRem;i<=endRemov;i++){
+      StorageService.remouveQuestion(i);
+      console.log("..Remouving Question in the Tab");
+    }
+
+    var query = "SELECT name,questionID  FROM questions WHERE  category ='"+category+"'AND  year='"+year+"'";
+    $cordovaSQLite.execute(db, query)
+      .then(function (counterQ) {/// if yes
+          console.log("..questionSize=>"+counterQ.rows.length);
+          if (counterQ.rows.length >0){
+            var qSize=counterQ.rows.length;
+            //   StorageService.resetCounter(counterQ.rows.item(0).questionID);//To the first Question
+            StorageService.resetCounter(1);
+            StorageService.resetScoreUser();// to Zeros
+            StorageService.saveQSize(qSize); // Saving the size of the Question
+            StorageService.saveFirtsQ(counterQ.rows.item(0).questionID);
+            /// try loading data in the Tab
+
+            for(i=0;i<counterQ.rows.length;i++){
+              StorageService.saveQuestion(counterQ.rows.item(i).questionID,counterQ.rows.item(i).name);
+             
+			 $rootScope.randData.push({
+                questionId:Number(counterQ.rows.item(i).questionID)
+              })
+            }
+            StorageService.saveqTime(new Date()); // then nloc the time
+
+            // The we have to go the the Question and anszwer url
+
+            console.log("TAB SIZE DATA=>"+ $rootScope.randData.length);
+            for (var i = 0; i < $rootScope.randData.length; i++) {
+              console.log("Full waiiting====>" + $rootScope.randData[i].questionId);
+            }
+
+            $state.go("quizCulture2",{///
+              year:year,
+              category:category,
+              type:type
+
+            });
+
+          }else {
+            console.log("question is empty ");
+            $cordovaDialogs.confirm('Absance des donées Mettez à jour vos  donnnée, Aller me menu < Mise à jours>',
+              'Data not found', ['button 1','button 2'])
+              .then(function(buttonIndex) {
+                // no button = 0, 'OK' = 1, 'Cancel' = 2
+                var btnIndex = buttonIndex;
+                if (buttonIndex ==1){
+                  $state.go("updateQ");
+                }else if(buttonIndex ==2){
+
+                }
+              })
+          }
+        }, //if error
+        function (error) {
+          console.log("XXXX Question Counter ERROR  XXXX" + error);
+          $cordovaDialogs.confirm('Absance des donées Mettez à jour vos  donnnée, Aller me menu < Mise à jours>',
+            'Data not found', ['button 1','button 2'])
+            .then(function(buttonIndex) {
+              // no button = 0, 'OK' = 1, 'Cancel' = 2
+              var btnIndex = buttonIndex;
+              if (buttonIndex ==1){
+                $state.go("updateQ");
+              }else if(buttonIndex ==2){
+
+              }
+            })
+          //  alert("Data not found \n -------------\n Absance des donées Mettez à jour vos  donnnée, Aller me menu < Mise à jours>");
+        });
+
+    $ionicLoading.hide();
+
+  }
+  qActivation
+  
+$cordovaSQLite.execute(db, "CREATE  TABLE  IF NOT EXISTS activationSleep(id integer primary key,idUser integer,catID integer,creditDate integer)");
+
+
+for (i=0;i<$rootScope.selectedUser.length;i++){
+  console.log($rootScope.selectedUser[i].userName +"->"+i);
+ saveMemberTeam ($rootScope.selectedUser[i].userId,$rootScope.selectedUser[i].userName,$rootScope.selectedUser[i].photoName,idTeam,$rootScope.selectedUser[i].town, $cordovaSQLite);
+  // the trying to send Theam XXXXXXXXXXXXXXX===========>>>>>>>>
+  idUser +="("+$rootScope.selectedUser[i].userId+","+idTeam+")";
+  if(i<$rootScope.selectedUser.length -1){
+    console.log("---ENDING THINGS--");
+    idUser +=",";
+  }
+
+  if(i==($rootScope.selectedUser.length)-1){
+  }
+  
+  }
